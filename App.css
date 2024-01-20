@@ -1,0 +1,122 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #1890ff; /* Ant Design primary color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+}
+
+.left-subsection {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-subsection {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f2f5; /* Ant Design background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.center-buttons {
+  display: flex;
+  gap: 10px; /* Adjust as needed */
+}
+
+
+.input-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px; /* Adjust as needed */
+  align-items: center; /* Align items vertically */
+}
+.view-component,
+.final-view-component {
+  margin-bottom: 20px;
+}
+
+.view-component {
+  overflow-y: auto;
+  max-height: 300px; /* Adjust as needed */
+}
+
+.final-view-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Customize Ant Design modal styles */
+.ant-modal-body {
+  padding: 20px;
+}
